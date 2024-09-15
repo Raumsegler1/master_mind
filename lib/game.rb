@@ -1,12 +1,12 @@
-require_relative ''
-require_relative ''
-require_relative ''
-require_relative ''
+require_relative 'game/display'
+require_relative 'game/input'
+require_relative 'game/round'
+require_relative 'game/cpu'
 
 class Game
-  def initialize(player, difficulty)
+  def initialize(player, diffi)
     guesser = player
-    difficulty = difficulty
+    difficulty = diffi
     round = 0
   end
 
