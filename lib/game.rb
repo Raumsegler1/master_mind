@@ -4,13 +4,14 @@ require_relative 'game/round'
 require_relative 'game/cpu'
 
 class Game
+  ROUND = 12
+
   def initialize(player, diffi)
     guesser = player
     difficulty = diffi
-    round = 0
   end
 
   protected
 
-  attr_accessor :guesser, :difficulty, :round
+  attr_accessor :guesser, :difficulty
 end
