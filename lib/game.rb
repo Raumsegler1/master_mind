@@ -11,6 +11,11 @@ class Game
     difficulty = diffi
   end
 
+  def start
+    start_msg = Display.new
+    start_msg.display_show('Game start')
+  end
+
   protected
 
   attr_accessor :guesser, :difficulty
