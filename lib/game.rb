@@ -6,9 +6,9 @@ require_relative 'game/cpu'
 class Game
   ROUND = 12
 
-  def initialize(player, diffi)
+  def initialize(player, diff)
     guesser = player
-    difficulty = diffi
+    difficulty = diff
   end
 
   def start
